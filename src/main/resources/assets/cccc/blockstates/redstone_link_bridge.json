@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cccc:block/redstone_link_bridge"
+    },
+    "facing=south": {
+      "model": "cccc:block/redstone_link_bridge",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "cccc:block/redstone_link_bridge",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "cccc:block/redstone_link_bridge",
+      "y": 270
+    }
+  }
+}

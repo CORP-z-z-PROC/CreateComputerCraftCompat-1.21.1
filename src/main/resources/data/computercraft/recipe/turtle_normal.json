@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "computercraft:computer_normal"
+    },
+    {
+      "item": "create:mechanical_arm"
+    },
+    {
+      "item": "create:brown_toolbox"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    }
+  ],
+  "result": {
+    "id": "computercraft:turtle_normal"
+  }
+}

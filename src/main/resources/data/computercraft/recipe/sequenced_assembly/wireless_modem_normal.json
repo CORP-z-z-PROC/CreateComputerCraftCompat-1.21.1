@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:redstone_link"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "computercraft:wireless_modem_normal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:redstone_link"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_link"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:redstone_link"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_link"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:redstone_link"
+        },
+        {
+          "item": "computercraft:wired_modem_full"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:redstone_link"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:redstone_link"
+  }
+}

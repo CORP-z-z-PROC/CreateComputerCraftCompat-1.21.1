@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "create:copper_nugget"
+    },
+    "R": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#R#",
+    " # "
+  ],
+  "result": {
+    "id": "computercraft:wired_modem_full"
+  },
+  "show_notification": true
+}

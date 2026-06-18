@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "minecraft:oxidized_copper"
+    },
+    "X": {
+      "item": "create:electron_tube"
+    },
+    "Y": {
+      "item": "create:precision_mechanism"
+    },
+    "G": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "pattern": [
+    " X ",
+    "YRY",
+    " G "
+  ],
+  "result": {
+    "id": "computercraft:disk_drive"
+  },
+  "show_notification": true
+}

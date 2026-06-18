@@ -1,0 +1,115 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cccc:incomplete_integrated_circuit"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "cccc:integrated_circuit"
+
+    },
+    {
+      "chance": 5.0,
+      "id": "create:golden_sheet"
+    },
+    {
+      "chance": 2.0,
+      "id": "cccc:incomplete_integrated_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        },
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cccc:incomplete_integrated_circuit"
+        }
+      ],
+      "results": [
+        {
+          "id": "cccc:incomplete_integrated_circuit"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cccc:incomplete_integrated_circuit"
+  }
+}

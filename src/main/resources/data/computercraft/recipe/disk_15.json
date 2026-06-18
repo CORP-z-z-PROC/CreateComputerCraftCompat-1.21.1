@@ -1,0 +1,22 @@
+{
+  "type": "computercraft:impostor_shapeless",
+  "category": "redstone",
+  "group": "computercraft:disk",
+  "ingredients": [
+    {
+      "item": "computercraft:disk"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "id": "computercraft:disk",
+    "components": {
+      "minecraft:dyed_color": {
+        "rgb": 15905331,
+        "show_in_tooltip": false
+      }
+    }
+  }
+}

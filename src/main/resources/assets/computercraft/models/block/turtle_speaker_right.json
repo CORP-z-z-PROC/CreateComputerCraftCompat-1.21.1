@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by CaptainSqrBeard",
+	"textures": {
+		"0": "computercraft:block/turtle_speaker",
+		"particle": "computercraft:block/turtle_speaker"
+	},
+	"elements": [
+		{
+			"from": [14, 5, 4],
+			"to": [15, 12, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 0, 0]},
+			"faces": {
+				"north": {"uv": [1, 7, 0, 14], "texture": "#0"},
+				"east": {"uv": [7, 0, 0, 7], "texture": "#0"},
+				"south": {"uv": [4, 7, 3, 14], "texture": "#0"},
+				"up": {"uv": [1, 14, 2, 7], "texture": "#0"},
+				"down": {"uv": [2, 7, 3, 14], "texture": "#0"}
+			}
+		}
+	]
+}

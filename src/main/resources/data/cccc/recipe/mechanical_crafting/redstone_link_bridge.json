@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    " LTL ",
+    "TAWAT"
+  ],
+  "key": {
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "A": {
+      "item": "create:andesite_casing"
+    },
+    "W": {
+      "item": "computercraft:wireless_modem_advanced"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cccc:redstone_link_bridge"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "computercraft:monitor_normal"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "computercraft:monitor_advanced"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:monitor_normal"
+        },
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:monitor_normal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:monitor_normal"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:monitor_normal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:monitor_normal"
+        },
+        {
+          "item": "minecraft:tinted_glass"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:monitor_normal"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "computercraft:monitor_normal"
+  }
+}
