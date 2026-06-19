@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=up,on=false": {
-      "model": "computercraft:block/wireless_modem_normal_ground_off"
-    },
-    "facing=up,on=true": {
-      "model": "computercraft:block/wireless_modem_normal_ground_on"
-    },
-    "facing=down,on=false": {
       "model": "computercraft:block/wireless_modem_normal_ground_off",
       "x": 180
     },
-    "facing=down,on=true": {
+    "facing=up,on=true": {
       "model": "computercraft:block/wireless_modem_normal_ground_on",
       "x": 180
+    },
+    "facing=down,on=false": {
+      "model": "computercraft:block/wireless_modem_normal_ground_off"
+    },
+    "facing=down,on=true": {
+      "model": "computercraft:block/wireless_modem_normal_ground_on"
     },
     "facing=north,on=false": {
       "model": "computercraft:block/wireless_modem_normal_wall_off"

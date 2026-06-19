@@ -1,4 +1,0 @@
-{
-  "parent": "computercraft:block/wired_modem",
-  "textures": {"0": "computercraft:block/wired_modem_peripheral"}
-}
