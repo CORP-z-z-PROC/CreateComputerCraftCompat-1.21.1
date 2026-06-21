@@ -1,18 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "cccc:incomplete_advanced_integrated_circuit"
+    "item": "create:brass_sheet"
   },
-  "loops": 1,
+  "loops": 3,
   "results": [
     {
       "chance": 100.0,
       "id": "cccc:advanced_integrated_circuit"
-
     },
     {
       "chance": 5.0,
-      "id": "create:golden_sheet"
+      "id": "create:brass_sheet"
     },
     {
       "chance": 5.0,
@@ -20,7 +19,7 @@
     },
     {
       "chance": 2.0,
-      "id": "cccc:incomplete_advanced_integrated_circuit"
+      "id": "minecraft:gold_nugget"
     }
   ],
   "sequence": [
@@ -28,7 +27,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
+          "item": "create:brass_sheet"
         },
         {
           "item": "cccc:lapis_sheet"
@@ -36,7 +35,7 @@
       ],
       "results": [
         {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
+          "id": "create:brass_sheet"
         }
       ]
     },
@@ -44,7 +43,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
+          "item": "create:brass_sheet"
         },
         {
           "item": "create:electron_tube"
@@ -52,7 +51,7 @@
       ],
       "results": [
         {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
+          "id": "create:brass_sheet"
         }
       ]
     },
@@ -60,60 +59,20 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
+          "item": "create:brass_sheet"
         },
         {
-          "item": "create:brass_ingot"
+          "item": "minecraft:gold_nugget"
         }
       ],
       "results": [
         {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ],
-      "results": [
-        {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:cutting",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ],
-      "processing_time": 200,
-      "results": [
-        {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_advanced_integrated_circuit"
-        }
-      ],
-      "results": [
-        {
-          "id": "cccc:incomplete_advanced_integrated_circuit"
+          "id": "create:brass_sheet"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "cccc:incomplete_advanced_integrated_circuit"
+    "id": "create:brass_sheet"
   }
 }

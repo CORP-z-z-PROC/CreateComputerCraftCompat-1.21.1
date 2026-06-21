@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
+    "R": {
       "item": "minecraft:redstone"
     },
-    "R": {
+    "A": {
       "item": "create:andesite_casing"
     },
-    "G": {
+    "B": {
       "item": "create:brass_sheet"
     }
   },
   "pattern": [
-    " # ",
-    "#R#",
-    "G#G"
+    " R ",
+    "RAR",
+    " R "
   ],
   "result": {
     "id": "computercraft:redstone_relay"

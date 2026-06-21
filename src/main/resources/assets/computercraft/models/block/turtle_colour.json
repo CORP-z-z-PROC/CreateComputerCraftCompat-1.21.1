@@ -1,0 +1,53 @@
+{
+    "parent": "computercraft:block/turtle_base",
+    "textures": {
+        "particle": "computercraft:block/turtle_colour_frame_front",
+        "body_faces": "computercraft:block/turtle_colour_faces",
+        "body_backpack": "computercraft:block/turtle_colour_body_backpack",
+        "frame_backpack": "computercraft:block/turtle_colour_frame_backpack",
+        "frame_front": "computercraft:block/turtle_colour_frame_front"
+    },
+    "elements": [
+        {
+            "from": [ 2, 2, 2 ],
+            "to": [ 14, 14, 14 ],
+            "faces": {
+                "down": { "uv": [ 0, 0, 8, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "up": { "uv": [ 0, 8, 8, 16 ], "texture": "#body_faces", "tintindex": 0 },
+                "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#body_faces", "tintindex": 0 },
+                "south": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "east": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 }
+            }
+        },
+        {
+            "from": [ 3, 6, 14 ],
+            "to": [ 13, 13, 16 ],
+            "faces": {
+                "down": { "uv": [ 2, 9, 12, 11 ], "texture": "#body_backpack", "tintindex": 0 },
+                "up": { "uv": [ 2, 0, 12, 2 ], "texture": "#body_backpack", "tintindex": 0 },
+                "south": { "uv": [ 2, 2, 12, 9 ], "texture": "#body_backpack", "tintindex": 0 },
+                "west": { "uv": [ 0, 2, 2, 9 ], "texture": "#body_backpack", "tintindex": 0 },
+                "east": { "uv": [ 12, 2, 14, 9 ], "texture": "#body_backpack", "tintindex": 0 }
+            }
+        },
+        {
+            "from": [ 2, 2, 2 ],
+            "to": [ 14, 14, 2 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 12, 12 ], "texture": "#frame_front" }
+            }
+        },
+        {
+            "from": [ 3, 6, 14 ],
+            "to": [ 13, 13, 16 ],
+            "faces": {
+                "down": { "uv": [ 2, 9, 12, 11 ], "texture": "#frame_backpack" },
+                "up": { "uv": [ 2, 0, 12, 2 ], "texture": "#frame_backpack" },
+                "south": { "uv": [ 2, 2, 12, 9 ], "texture": "#frame_backpack" },
+                "west": { "uv": [ 0, 2, 2, 9 ], "texture": "#frame_backpack" },
+                "east": { "uv": [ 12, 2, 14, 9 ], "texture": "#frame_backpack" }
+            }
+        }
+    ]
+}

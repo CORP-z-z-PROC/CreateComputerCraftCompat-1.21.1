@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "A": {
+      "item": "cccc:advanced_integrated_circuit"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "computercraft:cable"
+    },
+    "W": {
+      "item": "computercraft:wired_modem_full"
+    },
+    "D": {
+      "item": "computercraft:disk"
+    }
+  },
+  "pattern": [
+    " BBB ",
+    "BATEB",
+    "BCWCB",
+    "BEDAB",
+    " BBB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "computercraft:computer_advanced"
+  },
+  "show_notification": false
+}

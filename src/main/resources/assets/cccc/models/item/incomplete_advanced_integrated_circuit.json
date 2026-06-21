@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "cccc:item/incomplete_advanced_integrated_circuit"
-  }
-}

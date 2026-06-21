@@ -4,11 +4,9 @@ import dan200.computercraft.api.peripheral.PeripheralCapability;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.pcfractal.createcomputers.block.CCCCBlocks;
 import net.pcfractal.createcomputers.blockentity.CCCCBlockEntities;
-import net.pcfractal.createcomputers.blockentity.RedstoneLinkBridgeBlockEntity;
 import net.pcfractal.createcomputers.item.CCCCItems;
 import net.pcfractal.createcomputers.peripheral.RedstoneLinkBridgePeripheral;
 import org.slf4j.Logger;
@@ -75,13 +73,7 @@ public class CCCC {
                         new ItemStack(CCCCItems.ADVANCED_INTEGRATED_CIRCUIT.get()),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 event.insertAfter(anchorItem,
-                        new ItemStack(CCCCItems.INCOMPLETE_ADVANCED_INTEGRATED_CIRCUIT.get()),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-                event.insertAfter(anchorItem,
                         new ItemStack(CCCCItems.INTEGRATED_CIRCUIT.get()),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-                event.insertAfter(anchorItem,
-                        new ItemStack(CCCCItems.INCOMPLETE_INTEGRATED_CIRCUIT.get()),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 event.insertAfter(anchorItem,
                         new ItemStack(CCCCItems.REDSTONE_LINK_BRIDGE.get()),
@@ -104,8 +96,8 @@ public class CCCC {
     }
 
     private void registerCapabilities(RegisterCapabilitiesEvent event) {
-        event.registerBlockEntity(PeripheralCapability.get(), (BlockEntityType) CCCCBlockEntities.REDSTONE_LINK_BRIDGE.get(),
-                (blockEntity, side) -> new RedstoneLinkBridgePeripheral((RedstoneLinkBridgeBlockEntity) blockEntity));
+        event.registerBlockEntity(PeripheralCapability.get(),CCCCBlockEntities.REDSTONE_LINK_BRIDGE.get(),
+                (blockEntity, side) -> new RedstoneLinkBridgePeripheral(blockEntity));
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

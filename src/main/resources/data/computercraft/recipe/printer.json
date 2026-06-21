@@ -2,23 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "R": {
-      "item": "minecraft:oxidized_copper"
+    "B": {
+      "item": "create:brass_funnel"
     },
-    "X": {
+    "E": {
       "item": "create:electron_tube"
     },
-    "Y": {
+    "P": {
       "item": "create:precision_mechanism"
     },
-    "G": {
+    "S": {
       "item": "create:schematic_table"
     }
   },
   "pattern": [
-    " X ",
-    "YRY",
-    " G "
+    " P ",
+    "ERE",
+    " B "
   ],
   "result": {
     "id": "computercraft:printer"

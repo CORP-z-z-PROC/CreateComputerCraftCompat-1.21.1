@@ -2,23 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "R": {
-      "item": "minecraft:oxidized_copper"
+    "A": {
+      "item": "create:andesite_funnel"
     },
-    "X": {
+    "E": {
       "item": "create:electron_tube"
     },
-    "Y": {
+    "P": {
       "item": "create:precision_mechanism"
     },
-    "G": {
+    "J": {
       "item": "minecraft:jukebox"
     }
   },
   "pattern": [
-    " X ",
-    "YRY",
-    " G "
+    " P ",
+    "EJE",
+    " A "
   ],
   "result": {
     "id": "computercraft:disk_drive"

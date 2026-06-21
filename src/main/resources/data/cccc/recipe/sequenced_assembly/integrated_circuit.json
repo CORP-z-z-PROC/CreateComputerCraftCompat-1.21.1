@@ -1,9 +1,9 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "cccc:incomplete_integrated_circuit"
+    "item": "create:iron_sheet"
   },
-  "loops": 1,
+  "loops": 3,
   "results": [
     {
       "chance": 100.0,
@@ -12,11 +12,15 @@
     },
     {
       "chance": 5.0,
+      "id": "create:iron_sheet"
+    },
+    {
+      "chance": 5.0,
       "id": "create:golden_sheet"
     },
     {
       "chance": 2.0,
-      "id": "cccc:incomplete_integrated_circuit"
+      "id": "minecraft:iron_nugget"
     }
   ],
   "sequence": [
@@ -24,15 +28,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_integrated_circuit"
+          "item": "create:iron_sheet"
         },
         {
-          "item": "create:golden_sheet"
+          "item": "cccc:lapis_sheet"
         }
       ],
       "results": [
         {
-          "id": "cccc:incomplete_integrated_circuit"
+          "id": "create:iron_sheet"
         }
       ]
     },
@@ -40,7 +44,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_integrated_circuit"
+          "item": "create:iron_sheet"
         },
         {
           "item": "create:electron_tube"
@@ -48,7 +52,7 @@
       ],
       "results": [
         {
-          "id": "cccc:incomplete_integrated_circuit"
+          "id": "create:iron_sheet"
         }
       ]
     },
@@ -56,60 +60,20 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "cccc:incomplete_integrated_circuit"
+          "item": "create:iron_sheet"
         },
         {
-          "item": "create:andesite_alloy"
+          "item": "minecraft:iron_nugget"
         }
       ],
       "results": [
         {
-          "id": "cccc:incomplete_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_integrated_circuit"
-        }
-      ],
-      "results": [
-        {
-          "id": "cccc:incomplete_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:cutting",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_integrated_circuit"
-        }
-      ],
-      "processing_time": 200,
-      "results": [
-        {
-          "id": "cccc:incomplete_integrated_circuit"
-        }
-      ]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "cccc:incomplete_integrated_circuit"
-        }
-      ],
-      "results": [
-        {
-          "id": "cccc:incomplete_integrated_circuit"
+          "id": "create:iron_sheet"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "cccc:incomplete_integrated_circuit"
+    "id": "create:iron_sheet"
   }
 }

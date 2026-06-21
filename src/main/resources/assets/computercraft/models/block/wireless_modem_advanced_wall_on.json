@@ -1,6 +1,7 @@
 {
   "parent": "computercraft:block/wireless_modem_wall_on",
   "textures": {
-    "0": "computercraft:block/wireless_modem_advanced_on"
+    "0": "computercraft:block/wireless_modem_advanced_on",
+    "particle": "create:block/brass_casing"
   }
 }

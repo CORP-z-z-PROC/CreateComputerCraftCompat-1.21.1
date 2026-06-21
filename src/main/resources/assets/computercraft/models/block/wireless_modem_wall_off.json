@@ -2,7 +2,7 @@
 	"parent": "block/block",
 	"textures": {
 		"0": "#texture",
-		"particle": "#0"
+        "particle": "create:block/andesite_casing"
 	},
 	"elements": [
 		{

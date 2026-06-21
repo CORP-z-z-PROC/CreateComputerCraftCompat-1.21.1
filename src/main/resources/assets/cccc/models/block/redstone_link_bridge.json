@@ -2,7 +2,7 @@
     "parent": "block/block",
 	"textures": {
 		"0": "cccc:block/redstone_link_bridge",
-		"particle": "cccc:block/redstone_link_bridge"
+		"particle": "create:block/brass_casing"
 	},
 	"elements": [
 		{

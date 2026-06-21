@@ -18,7 +18,7 @@
           "item": "create:display_board"
         },
         {
-          "item": "cccreatenewrecipes:integrated_circuit"
+          "item": "create:andesite_alloy"
         }
       ],
       "results": [
@@ -50,7 +50,7 @@
           "item": "create:display_board"
         },
         {
-          "item": "minecraft:glass_pane"
+          "item": "minecraft:tinted_glass"
         }
       ],
       "results": [

@@ -1,0 +1,34 @@
+{
+    "parent": "block/block",
+    "render_type": "translucent",
+    "textures": {
+        "body_faces": "#texture",
+        "backpack": "#backpacktexture",
+        "particle": "computercraft:block/turtle_colour_frame_front"
+    },
+    "elements": [
+        {
+            "from": [ 2, 2, 2 ],
+            "to": [ 14, 14, 14 ],
+            "faces": {
+                "down": { "uv": [ 0, 0, 8, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "up": { "uv": [ 0, 8, 8, 16 ], "texture": "#body_faces", "tintindex": 0 },
+                "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#body_faces", "tintindex": 0 },
+                "south": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 },
+                "east": { "uv": [ 8, 0, 16, 8 ], "texture": "#body_faces", "tintindex": 0 }
+            }
+        },
+        {
+            "from": [ 3, 6, 14 ],
+            "to": [ 13, 13, 16 ],
+            "faces": {
+                "down": { "uv": [ 2, 9, 12, 11 ], "texture": "#backpack" },
+                "up": { "uv": [ 2, 0, 12, 2 ], "texture": "#backpack" },
+                "south": { "uv": [ 2, 2, 12, 9 ], "texture": "#backpack" },
+                "west": { "uv": [ 0, 2, 2, 9 ], "texture": "#backpack" },
+                "east": { "uv": [ 12, 2, 14, 9 ], "texture": "#backpack" }
+            }
+        }
+    ]
+}

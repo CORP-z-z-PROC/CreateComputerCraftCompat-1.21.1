@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "I": {
+      "item": "cccc:integrated_circuit"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "computercraft:cable"
+    },
+    "W": {
+      "item": "computercraft:wired_modem_full"
+    },
+    "D": {
+      "item": "computercraft:disk"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "AITEA",
+    "ACWCA",
+    "AEDIA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "computercraft:computer_normal"
+  },
+  "show_notification": false
+}

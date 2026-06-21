@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "computercraft:monitor_normal"
+    "item": "create:display_board"
   },
   "loops": 3,
   "results": [
@@ -15,15 +15,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:monitor_normal"
+          "item": "create:display_board"
         },
         {
-          "item": "create:golden_sheet"
+          "item": "create:brass_ingot"
         }
       ],
       "results": [
         {
-          "id": "computercraft:monitor_normal"
+          "id": "create:display_board"
         }
       ]
     },
@@ -31,7 +31,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:monitor_normal"
+          "item": "create:display_board"
         },
         {
           "item": "create:electron_tube"
@@ -39,7 +39,7 @@
       ],
       "results": [
         {
-          "id": "computercraft:monitor_normal"
+          "id": "create:display_board"
         }
       ]
     },
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:monitor_normal"
+          "item": "create:display_board"
         },
         {
           "item": "minecraft:tinted_glass"
@@ -55,12 +55,12 @@
       ],
       "results": [
         {
-          "id": "computercraft:monitor_normal"
+          "id": "create:display_board"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "computercraft:monitor_normal"
+    "id": "create:display_board"
   }
 }

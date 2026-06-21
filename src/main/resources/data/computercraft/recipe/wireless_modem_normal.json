@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "create:transmitter"
+    },
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "create:redstone_link"
+    },
+    {
+      "item": "computercraft:wired_modem"
+    }
+  ],
+  "result": {
+    "id": "computercraft:wireless_modem_normal",
+    "count": 1
+  }
+}

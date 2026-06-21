@@ -1,0 +1,7 @@
+{
+  "parent": "computercraft:block/turtle_base",
+  "textures": {
+    "body_faces": "computercraft:block/turtle_advanced_faces",
+    "backpack": "computercraft:block/turtle_advanced_backpack"
+  }
+}

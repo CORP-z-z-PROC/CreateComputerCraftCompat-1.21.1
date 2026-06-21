@@ -1,4 +1,6 @@
 {
-  "parent": "computercraft:block/turtle_wireless_modem_right",
-  "textures": {"0": "computercraft:block/wireless_modem_normal_face_on"}
+  "parent": "computercraft:block/turtle_wireless_modem_right_on",
+  "textures": {
+    "0": "computercraft:block/turtle_modem_normal_on"
+  }
 }

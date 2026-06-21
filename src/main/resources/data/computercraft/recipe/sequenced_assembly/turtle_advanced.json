@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "computercraft:computer_advanced"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "computercraft:turtle_advanced"
+    },
+    {
+      "chance": 5.0,
+      "id": "computercraft:computer_advanced"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:brass_ingot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_advanced"
+        },
+        {
+          "item": "minecraft:turtle_scute"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_advanced"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_advanced"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_advanced"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_advanced"
+        },
+        {
+          "item": "create:encased_fan"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_advanced"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "computercraft:computer_advanced"
+  }
+}

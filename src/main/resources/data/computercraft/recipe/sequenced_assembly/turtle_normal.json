@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "computercraft:computer_normal"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "computercraft:turtle_normal"
+    },
+    {
+      "chance": 5.0,
+      "id": "computercraft:computer_normal"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:andesite_alloy"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_normal"
+        },
+        {
+          "item": "minecraft:turtle_scute"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_normal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_normal"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_normal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "computercraft:computer_normal"
+        },
+        {
+          "item": "create:encased_fan"
+        }
+      ],
+      "results": [
+        {
+          "id": "computercraft:computer_normal"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "computercraft:computer_normal"
+  }
+}

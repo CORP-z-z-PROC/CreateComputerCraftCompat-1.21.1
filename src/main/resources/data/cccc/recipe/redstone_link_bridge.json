@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LT",
+    "BW"
+  ],
+  "key": {
+    "L": {
+      "item": "create:redstone_link"
+    },
+    "T": {
+      "item": "create:transmitter"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "W": {
+      "item": "computercraft:wireless_modem_advanced"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "cccc:redstone_link_bridge"
+  }
+}

@@ -15,14 +15,10 @@ public class CCCCItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INTEGRATED_CIRCUIT = ITEMS.register("integrated_circuit",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> INCOMPLETE_INTEGRATED_CIRCUIT = ITEMS.register("incomplete_integrated_circuit",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ADVANCED_INTEGRATED_CIRCUIT = ITEMS.register("advanced_integrated_circuit",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> INCOMPLETE_ADVANCED_INTEGRATED_CIRCUIT = ITEMS.register("incomplete_advanced_integrated_circuit",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> REDSTONE_LINK_BRIDGE = ITEMS.register("redstone_link_bridge",
-            () -> new BlockItem(CCCCBlocks.REDSTONE_LINK_BRIDGE.get(), new Item.Properties()));;
+            () -> new BlockItem(CCCCBlocks.REDSTONE_LINK_BRIDGE.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
