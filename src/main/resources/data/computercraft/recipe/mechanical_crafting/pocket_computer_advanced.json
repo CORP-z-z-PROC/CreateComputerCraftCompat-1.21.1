@@ -3,11 +3,11 @@
   "accept_mirrored": false,
   "category": "misc",
   "key": {
-    "S": {
-      "item": "create:iron_sheet"
+    "B": {
+      "item": "create:brass_sheet"
     },
-    "I": {
-      "item": "cccc:integrated_circuit"
+    "A": {
+      "item": "cccc:advanced_integrated_circuit"
     },
     "T": {
       "item": "create:transmitter"
@@ -26,15 +26,14 @@
     }
   },
   "pattern": [
-    " SSS ",
-    "SITES",
-    "SCWCS",
-    "SEDIS",
-    " SSS "
+    "ATE",
+    "CWC",
+    "EDA",
+    "BBB"
   ],
   "result": {
     "count": 1,
-    "id": "computercraft:computer_normal"
+    "id": "computercraft:pocket_computer_advanced"
   },
   "show_notification": false
 }

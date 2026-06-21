@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "computercraft:monitor_normal"
+    },
+    {
+      "item": "create:analog_lever"
+    }
+  ],
+  "result": {
+    "id": "ccterminals:terminal_normal"
+  }
+}

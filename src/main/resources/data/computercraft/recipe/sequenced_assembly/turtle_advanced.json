@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "computercraft:computer_advanced"
+    "item": "computercraft:pocket_computer_advanced"
   },
   "loops": 3,
   "results": [
@@ -11,7 +11,7 @@
     },
     {
       "chance": 5.0,
-      "id": "computercraft:computer_advanced"
+      "id": "computercraft:pocket_computer_advanced"
     },
     {
       "chance": 2.0,
@@ -23,15 +23,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_advanced"
+          "item": "computercraft:pocket_computer_advanced"
         },
         {
-          "item": "minecraft:turtle_scute"
+          "item": "create:brass_sheet"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_advanced"
+          "id": "computercraft:pocket_computer_advanced"
         }
       ]
     },
@@ -39,15 +39,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_advanced"
+          "item": "computercraft:pocket_computer_advanced"
         },
         {
-          "item": "minecraft:chest"
+          "item": "minecraft:diamond"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_advanced"
+          "id": "computercraft:pocket_computer_advanced"
         }
       ]
     },
@@ -55,20 +55,20 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_advanced"
+          "item": "computercraft:pocket_computer_advanced"
         },
         {
-          "item": "create:encased_fan"
+          "item": "create:propeller"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_advanced"
+          "id": "computercraft:pocket_computer_advanced"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "computercraft:computer_advanced"
+    "id": "computercraft:pocket_computer_advanced"
   }
 }

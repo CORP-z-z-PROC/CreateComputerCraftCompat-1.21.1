@@ -19,22 +19,21 @@
       "item": "computercraft:cable"
     },
     "W": {
-      "item": "computercraft:wired_modem_full"
+      "item": "computercraft:wired_modem"
     },
     "D": {
       "item": "computercraft:disk"
     }
   },
   "pattern": [
-    " SSS ",
-    "SITES",
-    "SCWCS",
-    "SEDIS",
-    " SSS "
+    "ITE",
+    "CWC",
+    "EDI",
+    "SSS"
   ],
   "result": {
     "count": 1,
-    "id": "computercraft:computer_normal"
+    "id": "computercraft:pocket_computer_normal"
   },
   "show_notification": false
 }

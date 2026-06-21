@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "computercraft:computer_normal"
+    "item": "computercraft:pocket_computer_normal"
   },
   "loops": 3,
   "results": [
@@ -11,7 +11,7 @@
     },
     {
       "chance": 5.0,
-      "id": "computercraft:computer_normal"
+      "id": "computercraft:pocket_computer_normal"
     },
     {
       "chance": 2.0,
@@ -23,15 +23,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_normal"
+          "item": "computercraft:pocket_computer_normal"
         },
         {
-          "item": "minecraft:turtle_scute"
+          "item": "create:iron_sheet"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_normal"
+          "id": "computercraft:pocket_computer_normal"
         }
       ]
     },
@@ -39,15 +39,15 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_normal"
+          "item": "computercraft:pocket_computer_normal"
         },
         {
-          "item": "minecraft:chest"
+          "item": "minecraft:diamond"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_normal"
+          "id": "computercraft:pocket_computer_normal"
         }
       ]
     },
@@ -55,20 +55,20 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "computercraft:computer_normal"
+          "item": "computercraft:pocket_computer_normal"
         },
         {
-          "item": "create:encased_fan"
+          "item": "create:propeller"
         }
       ],
       "results": [
         {
-          "id": "computercraft:computer_normal"
+          "id": "computercraft:pocket_computer_normal"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "computercraft:computer_normal"
+    "id": "computercraft:pocket_computer_normal"
   }
 }
