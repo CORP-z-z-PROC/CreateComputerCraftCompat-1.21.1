@@ -59,38 +59,16 @@ public class CCCC {
             ResourceLocation.fromNamespaceAndPath("computercraft", "tab")
     );
 
-    private static final ResourceKey<CreativeModeTab> CREATE_MOD_TAB = ResourceKey.create(
-            Registries.CREATIVE_MODE_TAB,
-            ResourceLocation.fromNamespaceAndPath("create", "base")
-    );
-
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey().equals(COMPUTERCRAFT_TAB)) {
             ItemStack anchorItem = new ItemStack(BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("computercraft", "disk_drive")));
             if (!anchorItem.isEmpty()) {
                 event.insertAfter(anchorItem,
-                        new ItemStack(CCCCItems.ADVANCED_INTEGRATED_CIRCUIT.get()),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-                event.insertAfter(anchorItem,
-                        new ItemStack(CCCCItems.INTEGRATED_CIRCUIT.get()),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-                event.insertAfter(anchorItem,
                         new ItemStack(CCCCItems.REDSTONE_LINK_BRIDGE.get()),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             } else {
-                event.accept(CCCCItems.INTEGRATED_CIRCUIT.get());
-                event.accept(CCCCItems.ADVANCED_INTEGRATED_CIRCUIT.get());
-            }
-        }
-        if (event.getTabKey().equals(CREATE_MOD_TAB)) {
-            ItemStack anchorItem = new ItemStack(BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("create", "golden_sheet")));
-            if (!anchorItem.isEmpty()) {
-                event.insertAfter(anchorItem,
-                        new ItemStack(CCCCItems.LAPIS_SHEET.get()),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            } else {
-                event.accept(CCCCItems.LAPIS_SHEET.get());
+                event.accept(CCCCItems.REDSTONE_LINK_BRIDGE.get());
             }
         }
     }

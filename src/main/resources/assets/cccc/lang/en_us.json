@@ -1,8 +1,5 @@
 {
   "block.cccc.redstone_link_bridge": "Redstone Link Bridge",
 
-  "item.cccc.redstone_link_bridge": "Redstone Link Bridge",
-  "item.cccc.integrated_circuit": "Integrated Circuit",
-  "item.cccc.advanced_integrated_circuit": "Advanced Integrated Circuit",
-  "item.cccc.lapis_sheet": "Lapis Sheet"
+  "item.cccc.redstone_link_bridge": "Redstone Link Bridge"
 }

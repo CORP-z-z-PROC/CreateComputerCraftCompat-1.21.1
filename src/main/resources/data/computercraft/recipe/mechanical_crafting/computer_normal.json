@@ -7,7 +7,7 @@
       "item": "create:iron_sheet"
     },
     "I": {
-      "item": "cccc:integrated_circuit"
+      "item": "minecraft:redstone"
     },
     "T": {
       "item": "create:transmitter"
@@ -26,11 +26,11 @@
     }
   },
   "pattern": [
-    " SSS ",
-    "SITES",
+    "  S  ",
+    " ITE ",
     "SCWCS",
-    "SEDIS",
-    " SSS "
+    " EDI ",
+    "  S  "
   ],
   "result": {
     "count": 1,

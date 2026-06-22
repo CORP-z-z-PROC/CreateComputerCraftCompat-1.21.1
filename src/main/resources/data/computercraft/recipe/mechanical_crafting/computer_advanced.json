@@ -7,7 +7,7 @@
       "item": "create:brass_sheet"
     },
     "A": {
-      "item": "cccc:advanced_integrated_circuit"
+      "item": "minecraft:redstone"
     },
     "T": {
       "item": "create:transmitter"
@@ -26,11 +26,11 @@
     }
   },
   "pattern": [
-    " BBB ",
-    "BATEB",
+    "  B  ",
+    " ATE ",
     "BCWCB",
-    "BEDAB",
-    " BBB "
+    " EDA ",
+    "  B  "
   ],
   "result": {
     "count": 1,
