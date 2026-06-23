@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pcfractal.createcomputers.CCCC;
 
 public final class CCCCBlocks {
-    static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CCCC.MODID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CCCC.MODID);
     public static final DeferredBlock<Block> REDSTONE_LINK_BRIDGE;
 
     private CCCCBlocks() {
