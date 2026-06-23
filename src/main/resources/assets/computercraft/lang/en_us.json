@@ -1,3 +1,9 @@
 {
-  "block.computercraft.computer_command": "Creative Computer"
+  "block.computercraft.computer_command": "Creative Computer",
+
+  "upgrade.minecraft.diamond_axe.adjective": "Diamond Felling",
+  "upgrade.minecraft.diamond_hoe.adjective": "Diamond Farming",
+  "upgrade.minecraft.diamond_pickaxe.adjective": "Diamond Mining",
+  "upgrade.minecraft.diamond_shovel.adjective": "Diamond Digging",
+  "upgrade.minecraft.diamond_sword.adjective": "Diamond Melee"
 }

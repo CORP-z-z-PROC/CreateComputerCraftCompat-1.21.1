@@ -1,0 +1,7 @@
+redstonelinkbridge connects the create redstone links to
+computercrafts peripheral system through the redstone link bridge
+
+methods exposed by the redstone link bridge:
+
+getLinkSignal(String frequency1, String frequency2)
+sendLinkSignal(String frequency1, String frequency2)
